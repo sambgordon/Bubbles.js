@@ -23,7 +23,7 @@
  					size: 20
  				});
  					$(".windPower").on("change", function () {
- 							$("canvas.bubble").trigger("responsiveBubbles", ["windPower", parseInt($(this).val())]);
+ 							$("canvas.bubble").trigger("responsiveBubbles", ["windPower", parseInt($().val())]);
  					});
  	});
 !function($){
@@ -55,6 +55,7 @@
                  size = (Math.random() * 3)  + settings.size,
                  speed = (Math.random() * 1) + settings.speed,
                  opacity = (Math.random() * 0.5) + settings.opacity;
+
 
              bubbles.push({
                  speed: speed,
@@ -108,7 +109,10 @@
                 bubble.velX -= deltaV * xcomp;
                 bubble.velY -= deltaV * ycomp;
 
-            } else {
+            }
+
+						/*else case start */
+						else {
                 bubble.velX *= .98;
                 if (bubble.velY <= bubble.speed) {
                     bubble.velY = bubble.speed
@@ -126,14 +130,18 @@
                   default:
                     bubble.velX += 0.01 + (settings.windPower/1000);
                 }
-            }
 
+
+
+
+            }
+						/* sets color based on regex match of variable s */
             var s = settings.color;
-            var patt = /^#([\da-fA-F]{2})([\da-fA-F]{2})([\da-fA-F]{2})$/;
+            var patt = /^#([\d-fA-F]{2})([\d-fA-F]{2})([\d-fA-F]{2})/;
             var matches = patt.exec(s);
             var rgb = parseInt(matches[1], 16)+","+parseInt(matches[2], 16)+","+parseInt(matches[3], 16);
 
-
+						/*define velocity vars for y and x coordinates*/
             bubble.y += bubble.velY;
             bubble.x += bubble.velX;
 
@@ -174,23 +182,8 @@
 
              bubble.x = selected_array[0];
              bubble.y = selected_array[1];
-          } else {
-            var xarray = Array(Math.floor(Math.random() * canvas.width),0);
-            var yarray = Array(canvas.width, Math.floor(Math.random() * canvas.height))
-            var allarray = Array(xarray, yarray)
-
-            var selected_array = allarray[Math.floor(Math.random()*allarray.length)];
-
-             bubble.x = selected_array[0];
-             bubble.y = selected_array[1];
           }
         }
-
-        bubble.size = (Math.random() * 3) + settings.size;
-        bubble.speed = (Math.random() * 1) + settings.speed;
-        bubble.velY = bubble.speed;
-        bubble.velX = 0;
-        bubble.opacity = (Math.random() * 0.5) + settings.opacity;
     }
 
 
@@ -216,11 +209,6 @@
     }
   }
 }(window.jQuery);
-
-
-
-
-
 
 </script>
 
