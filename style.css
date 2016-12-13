@@ -1,16 +1,12 @@
 html {
   height: 100%;
 }
+
 body {
-  background: #000; /* Old browsers */
-      background-image: url(1.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-/*
-  background: -moz-radial-gradient(center, ellipse cover, #000 0%, #00001c 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#000), color-stop(100%,#00001c));
-  background: -webkit-radial-gradient(center, ellipse cover, #000 0%,#00001c 100%);
-*/
+  background: #000;
+  background-image: url(BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0;
   text-align: center;
   font-family: 'open sans';
@@ -19,28 +15,11 @@ body {
   height: 100%;
   font-size: 20px;
   padding-bottom: 50px;
-
-}
-
-.main{
-
-}
-
-.wrapper {
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-h1, h2 {
-  width: 100%;
-  float: left;
 }
 
 p {
 color: #fff;
-font-size: 30px !important;
+font-size: 30px;
 }
 
 h1 {
@@ -48,7 +27,7 @@ h1 {
   color: #fff;
   text-shadow: 0 1px 5px rgba(0,0,0,0.5);
   margin-bottom: 5px;
-  font-size: 70px !important;
+  font-size: 70px;
   letter-spacing: -4px;
 }
 h2 {
@@ -56,6 +35,11 @@ h2 {
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+h1, h2 {
+  width: 100%;
+  float: left;
 }
 
 .main {
@@ -80,9 +64,7 @@ h2 {
   color: #ffffff;
 }
 
-
-
-
+/* canvas to take up full screen */
 canvas {
   display: block;
   width: 100%;
@@ -91,19 +73,7 @@ canvas {
   left: 0;
   position: fixed;
 }
+
 .header {
   position: relative;
-}
-canvas.flare {
-  opacity: 0.5;
-}
-
-.windPower {
-    padding: 10px;
-    width: 90px;
-    border: none;
-    border-radius: 3px;
-    font-size: 33px;
-    background: rgba(0, 0, 0, 0.31);
-    color: white;
 }
