@@ -7,6 +7,7 @@ velX is used to define a "wind power" effect, while velY is used to define a "fa
 List of variables used (so you can search them easily):
 
 defaults = declares global vars with default settings.
+
 responsiveHover = Sets responsive hover based on canvas event listener boolean eval.
 Color = Color of bubbles.
 Hide = Whether or not to hide bubbles, expressed as boolean.
