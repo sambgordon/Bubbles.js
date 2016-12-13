@@ -11,9 +11,15 @@ defaults = declares global vars with default settings.
 responsiveHover = Sets responsive hover based on canvas event listener boolean eval.
 
 Color = Color of bubbles.
+
 Hide = Whether or not to hide bubbles, expressed as boolean.
+
 Speed = Falling speed of bubbles.
+
 windPower = Horizontlal velocity represented by velY.
+
 Count = Count of bubbles on screen at any time.
+
 Size = Size of bubbles.
+
 force = intensity of bubble movement in response to mouse hover.
