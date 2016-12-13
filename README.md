@@ -2,7 +2,7 @@
 This is a cool app that generates bubbles which respond to mouse movement. I used Pete R.'s Let it Snow plugin as
 a sort of framework.
 
-velX is used to define a "wind power" effect, while velY is used to define a "falling down" or gravity effect.
+
 
 List of variables used (so you can search them easily):
 
