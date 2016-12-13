@@ -1,8 +1,6 @@
 # ResponsiveBubbles-2
-This is a cool app that generates bubbles which respond to mouse movement. I used Pete R.'s Let it Snow plugin as
+This is a jQuery-based app that generates bubbles which respond to mouse movement. I used Pete R.'s Let it Snow plugin as
 a sort of framework.
-
-
 
 List of variables used (so you can search them easily):
 
