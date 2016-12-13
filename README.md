@@ -7,6 +7,7 @@ velX is used to define a "wind power" effect, while velY is used to define a "fa
 List of variables used (so you can search them easily):
 
 defaults = declares global vars with default settings.
+
 responsiveHover = Sets responsive hover based on canvas event listener boolean eval.
 
 color = Color of bubbles.
@@ -23,6 +24,6 @@ Size = Size of bubbles.
 
 force = intensity of bubble movement in response to mouse hover.
 
-
+Try and mess with the force, windPower and speed! :)
 
 https://cdn.rawgit.com/sambgordon/ResponsiveBubbles-2/master/index.html
