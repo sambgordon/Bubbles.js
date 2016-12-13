@@ -9,6 +9,7 @@ List of variables used (so you can search them easily):
 defaults = declares global vars with default settings.
 
 responsiveHover = Sets responsive hover based on canvas event listener boolean eval.
+
 Color = Color of bubbles.
 Hide = Whether or not to hide bubbles, expressed as boolean.
 Speed = Falling speed of bubbles.
