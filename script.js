@@ -110,7 +110,7 @@ $.fn.responsiveBubbles = function(){
               }
 
               /*sets cases for "wind power" a.k.a. velY depending
-              on velY in relation to travel speed of bubbles
+              on velY in relation to var x
               */
               switch (settings.windPower) {
                 case 0:
