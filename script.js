@@ -22,7 +22,6 @@ force = intensity of bubble movement in response to mouse hover
 //default settings
 var defaults = {
   speed: 1,
-  //boolean eval sets hover response to mouse movement
   responsiveHover: true,
   color: "#DC143C",
   count: 250,
