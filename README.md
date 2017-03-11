@@ -4,7 +4,7 @@ This is a jQuery-based app that generates bubbles in a full-screen instance of C
 __________
 
 
-# List of variables used (so you can search them easily):
+## List of variables used (so you can search them easily):
 defaults = declares global vars with default settings.
 
 responsiveHover = Sets responsive hover based on canvas event listener boolean eval.
