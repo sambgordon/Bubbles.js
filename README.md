@@ -23,6 +23,8 @@ Size = Size of bubbles.
 
 force = intensity of bubble movement in response to mouse hover.
 
-Try and mess with the force, windPower and speed! :)
+_________
+
+## Try and mess with the force, windPower and speed! :)
 
 https://cdn.rawgit.com/sambgordon/ResponsiveBubbles-2/master/index.html
