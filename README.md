@@ -2,7 +2,6 @@
 This is a jQuery-based app that generates bubbles in a full-screen instance of Canvas, which respond to mouse movement.
 
 List of variables used (so you can search them easily):
-
 defaults = declares global vars with default settings.
 
 responsiveHover = Sets responsive hover based on canvas event listener boolean eval.
