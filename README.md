@@ -1,5 +1,5 @@
 ___
-# ResponsiveBubbles-2
+# ResponsiveBubbles.js
 This is a jQuery-based app that generates bubbles in a full-screen instance of Canvas, which respond to mouse movement.
 Bubbles are generated randomly within the bounds of the screen, and an artificial "gravity" pushes them toward the bottom.
 
