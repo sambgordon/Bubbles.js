@@ -3,9 +3,7 @@ ___
 This is a jQuery-based app that generates bubbles in a full-screen instance of Canvas, which respond to mouse movement.
 Bubbles are generated randomly within the bounds of the screen, and an artificial "gravity" pushes them toward the bottom.
 
-
 ### List of variables used:
-defaults = declares global vars with default settings.
 
 | Var             | Description     |
 | :-------------   |:---------------|
@@ -20,9 +18,9 @@ defaults = declares global vars with default settings.
 | force | Intensity of bubble push in response to mouse hover|
 
 
-## Try and mess with the force, windPower and speed! :)
+### Try and mess with the force, windPower and speed! :)
 
-## UPDATE: Like my fractal app, I have intentions on integrating a functional UI for certain parameters.
+(UPDATE: Like my fractal app, I have intentions on integrating a functional UI for certain parameters.)
 
 [View live Demo](https://cdn.rawgit.com/sambgordon/ResponsiveBubbles-2/master/index.html)
 ___
