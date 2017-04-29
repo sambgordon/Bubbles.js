@@ -8,14 +8,14 @@ Bubbles are generated randomly within the bounds of the screen, and an artificia
 | Var             | Description     |
 | :-------------   |:---------------|
 | `defaults`     | Declares global vars with default settings|
-| responsiveHover      | Sets responsive hover based on Canvas event listener boolean eval. |
-| color     | Color of bubbles|
-| hide          | Whether or not to hide bubbles, expressed as boolean|
-| speed     | Falling speed of bubbles as "gravity"|
-| windPower          | Horizontal velocity represented by velY|
-| count           | Max count of bubbles on screen at any time|
-| size | Size of bubbles|
-| force | Intensity of bubble push in response to mouse hover|
+| `responsiveHover`      | Sets responsive hover based on Canvas event listener boolean eval. |
+| `color`     | Color of bubbles|
+| `hide`          | Whether or not to hide bubbles, expressed as boolean|
+| `speed`     | Falling speed of bubbles as "gravity"|
+| `windPower`          | Horizontal velocity represented by velY|
+| `count`           | Max count of bubbles on screen at any time|
+| `size` | Size of bubbles|
+| `force` | Intensity of bubble push in response to mouse hover|
 
 
 ### Try and mess with the `force`, `windPower`, and `speed`! :)
