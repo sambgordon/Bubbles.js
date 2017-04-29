@@ -8,7 +8,7 @@ Bubbles are generated randomly within the bounds of the screen, and an artificia
 | Var             | Description     |
 | :-------------   |:---------------|
 | defaults     | Declares global vars with default settings|
-| responsiveHover      | Sets responsive hover based on canvas event listener boolean eval. |
+| responsiveHover      | Sets responsive hover based on Canvas event listener boolean eval. |
 | color     | Color of bubbles|
 | hide          | Whether or not to hide bubbles, expressed as boolean|
 | speed     | Falling speed of bubbles as "gravity"|
