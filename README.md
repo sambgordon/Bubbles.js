@@ -7,7 +7,7 @@ Bubbles are generated randomly within the bounds of the screen, and an artificia
 
 | Var             | Description     |
 | :-------------   |:---------------|
-| defaults     | Declares global vars with default settings|
+| `defaults`     | Declares global vars with default settings|
 | responsiveHover      | Sets responsive hover based on Canvas event listener boolean eval. |
 | color     | Color of bubbles|
 | hide          | Whether or not to hide bubbles, expressed as boolean|
@@ -18,7 +18,7 @@ Bubbles are generated randomly within the bounds of the screen, and an artificia
 | force | Intensity of bubble push in response to mouse hover|
 
 
-### Try and mess with the force, windPower and speed! :)
+### Try and mess with the `force`, `windPower`, and `speed`! :)
 
 (UPDATE: Like my fractal app, I have intentions on integrating a functional UI for certain parameters.)
 
