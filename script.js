@@ -1,5 +1,5 @@
 /*
-******
+********
 
 This is a cool app that generates bubbles. I used Pete R's Let it Snow plugin as
 a sort of framework. Show it some love: http://www.thepetedesign.com/demos/let_it_snow_demo.html
@@ -18,7 +18,7 @@ force = intensity of bubble movement in response to mouse hover
 velX = defines a "wind power" effect
 velY = defines a "falling down" or gravity effect
 
-*****
+********
  */
 
 //default state
