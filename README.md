@@ -1,7 +1,7 @@
 ___
 # ResponsiveBubbles.js
 This is a jQuery-based app, originally a fork of thepetedesign's Letitsnow app, that generates bubbles in a full-screen instance of the HTML5 Canvas, which in turn respond to mouse movement.
-Bubbles are generated randomly within the bounds of the screen, and an artificial "gravity" pushes them toward the bottom.
+Bubbles are generated randomly within the bounds of the viewport, and an artificial "gravity" pushes them toward the bottom.
 
 ### List of variables used:
 
