@@ -1,4 +1,12 @@
-/*
+/**
+* Application Name: Bubbles.js
+* Application URI: https://github.com/sambgordon/Bubbles.js
+* Description: Generates bubbles randomly using Canvas
+* Version: 1.0.0
+* Author: Sam Gordon
+* Author URI: http://devbysam.com 
+* License: MIT
+
 ********
 
 This is a cool app that generates bubbles. I used Pete R's Let it Snow plugin as
