@@ -6,25 +6,10 @@
 * Author: Sam Gordon
 * Author URI: http://devbysam.com 
 * License: MIT
-
 ********
 
 This is a cool app that generates bubbles. I used Pete R's Let it Snow plugin as
 a sort of framework. Show it some love: http://www.thepetedesign.com/demos/let_it_snow_demo.html
-
-Variables of note:
-
-defaults = declares global vars with default settings
-responsiveHover = Sets responsive hover based on canvas event listener boolean eval
-Color = Color of bubbles
-Hide = Whether or not to hide bubbles, expressed as boolean
-Speed = Falling speed of bubbles
-windPower = Horizontlal velocity represented by velY
-Count = Count of bubbles on screen at any time
-Size = Size of bubbles
-force = intensity of bubble movement in response to mouse hover
-velX = defines a "wind power" effect
-velY = defines a "falling down" or gravity effect
 
 ********
  */
