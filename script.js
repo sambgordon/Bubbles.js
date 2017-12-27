@@ -4,7 +4,7 @@
 * Description: Generates bubbles randomly using Canvas
 * Version: 1.0.0
 * Author: Sam Gordon
-* Author URI: http://devbysam.com 
+* Author URI: http://www.devbysam.com 
 * License: MIT
 ********
 
