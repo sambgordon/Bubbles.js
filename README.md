@@ -20,7 +20,5 @@ Bubbles are generated randomly within the bounds of the viewport, and an artific
 
 ### Try and mess with the `force`, `windPower`, and `speed`! :)
 
-(UPDATE: Like my fractal app, I have intentions on integrating a functional UI for certain parameters. Stay tuned!)
-
 [View live Demo](https://cdn.rawgit.com/sambgordon/ResponsiveBubbles-2/master/index.html)
 ___
